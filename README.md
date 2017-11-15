@@ -6,6 +6,7 @@ Note of Tensorflow function
 
 ## tf.cast
 改變張量元素的資料型態
+
 ### 參數
 - **`x`**
  : 一個 Tensor 或 Sparse Tensor<br>
@@ -21,18 +22,21 @@ Note of Tensorflow function
 
 ## tf.reduce_mean
 計算某張量維度上的元素平均值
+
 ### 參數
 - **`input_tensor`**
- : 欲降維的張量。應為數值型態 <br>
+ : 欲降維的張量。應為數值型態 
  
 - **`axis`** *(=None)*
- : 欲降的維度。若為 `None` (default)，則對所有維度降維。輸入範圍必須在 `[-rank(input_tensor), rank(input_tensor)]`<br>
+ : 欲降的維度。若為 `None` (default)，則對所有維度降維。輸入範圍必須在 `[-rank(input_tensor), rank(input_tensor)]`
  
 - **`keep_dims`** *(=False)*
- : <br>
+ : 若為 `True` ，則保留降維尺寸為1
  
 - **`name`** *(=None)* 
- : <br>
+ : 操作的名稱
  
 - **`reduction_indices`** *(=None)*
-: <br>
+
+### 回傳
+- 降維後的 Tensor
