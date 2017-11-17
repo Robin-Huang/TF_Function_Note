@@ -1,9 +1,9 @@
 # TF_Function_Note
 Note of Tensorflow function
 
-- [tf.cast](https://github.com/Robin-Huang/TF_Function_Note/new/master?readme=1#tfcastx-dtype-namenone)
-- [tf.reduce_mean](https://github.com/Robin-Huang/TF_Function_Note/new/master?readme=1#tfreduce_mean)
-- [tf.reset_default_graph](https://github.com/Robin-Huang/TF_Function_Note/new/master?readme=1#tf.reset_default_graph)
+- [tf.cast](https://github.com/Robin-Huang/TF_Function_Note/blob/master/README.md#tfcast)
+- [tf.reduce_mean](https://github.com/Robin-Huang/TF_Function_Note/blob/master/README.md#tfreduce_mean)
+- [tf.reset_default_graph](https://github.com/Robin-Huang/TF_Function_Note/blob/master/README.md#tfreset_default_graph)
 
 ## tf.cast
 改變張量元素的資料型態
